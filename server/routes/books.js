@@ -1,5 +1,4 @@
-//File name: Midterm Summer 2021 - Comp 229
-//name: Alessandro da Silva Santos, Author's name: Alessandro da Silva Santos, StudentID: 300927354
+//COMP229 - Midterm Test - Created by Evilasio Junior #301122341
 
 // modules required for routing
 let express = require('express');

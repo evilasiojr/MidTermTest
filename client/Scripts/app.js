@@ -1,3 +1,5 @@
+//COMP229 - Midterm Test - Created by Evilasio Junior #301122341
+
 /* custom JS goes here */
 
 /* pagination code from http://www.bootply.com/lxa0FF9yhw */

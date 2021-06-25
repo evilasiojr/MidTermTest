@@ -1,3 +1,5 @@
+//COMP229 - Midterm Test - Created by Evilasio Junior #301122341
+
 module.exports = {
   //local MongoDB deployment ->
   //"URI": "mongodb://localhost/books229"

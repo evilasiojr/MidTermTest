@@ -1,3 +1,5 @@
+// COMP229 - Midterm Test - Created by Evilasio Junior #301122341
+
 let app = require('./server/config/app');
 let debug = require('debug')('comp308-w2019-midterm:server');
 let http = require('http');
