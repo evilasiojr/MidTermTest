@@ -5,10 +5,7 @@
       <div class="row">
         <div class="col-md-offset-1 col-md-10">
           <h3>Favourite Books List </h3>
-                    <!-- ------------------------ -->
-          <!-- FIX THE ADD BUTTON BELOW -->
-          <!-- ------------------------ -->
-          <a href="/books/add" class="btn btn-primary"><i class="fa fa-plus"></i> Add a book</a>
+             <a href="/books/add" class="btn btn-primary"><i class="fa fa-plus"></i> Add a book</a>
           <br>
           <div class="table-responsive">
             <table class="table table-bordered table-striped table-hover">
@@ -23,8 +20,6 @@
                 </tr>
                 </thead>
                 <tbody>
-
-
                 <!-- Template Row -->
                 <% for (let count = 0; count < books.length; count++) { %>
                 <tr>
@@ -34,19 +29,12 @@
                   <td class="text-center"><%= books[count].Genre %></td>
 
                   <td class="text-center">
-                    <!-- ------------------------ -->
-                    <!-- ADD the EDIT BUTTON HERE -->
-                    <!-- ------------------------ -->
-                    <a href="/book-list/edit/<%= BookList[count]._id %>" class="btn btn-primary btn-sm">
-                      <i class="fas fa-pencil-alt"></i> Edit</a>      
+                  <a href="/books/<%= books[count]._id %>" class="btn btn-warning">EDIT</a>
                   </td>
 
                   <td class="text-center">
-                    <!-- ------------------------ -->
-                    <!-- ADD the DELETE BUTTON HERE -->
-                    <!-- ------------------------ -->
-                    <a href="/book-list/delete/<%= BookList[count]._id %>" class="btn btn-danger btn-sm">
-                      <i class="fas fa-trash-alt"></i> Delete</a>  
+                   <a href="/books/delete/<%= books[count]._id %>" class="btn btn-danger"> Delete</a>
+
                   </td>
                 </tr>
                 <% } %>
